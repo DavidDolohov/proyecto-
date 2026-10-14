@@ -1,0 +1,487 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1"
+    >
+
+    <meta
+        name="description"
+        content="Contacta a VETIA Clínica Veterinaria y agenda la atención de tu mascota."
+    >
+
+    <title>Contacto | VETIA</title>
+
+    <!-- Fuentes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link
+        rel="preconnect"
+        href="https://fonts.gstatic.com"
+        crossorigin
+    >
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700&display=swap"
+        rel="stylesheet"
+    >
+
+    <!-- Hoja de estilos -->
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+
+    <!-- Enlace para accesibilidad -->
+    <a class="skip-link" href="#contenido">
+        Saltar al contenido
+    </a>
+
+    <!-- ==================== HEADER ==================== -->
+    <header class="site-header">
+
+        <div class="container nav-wrap">
+
+            <!-- Logo -->
+            <a
+                class="brand"
+                href="index.html"
+                aria-label="VETIA, inicio"
+            >
+                <span class="brand-mark">✦</span>
+
+                <span>
+                    <strong>VETIA</strong>
+                    <small>Clínica Veterinaria</small>
+                </span>
+            </a>
+
+            <!-- Botón menú móvil -->
+            <button
+                class="menu-toggle"
+                aria-label="Abrir menú"
+                aria-expanded="false"
+                aria-controls="main-nav"
+            >
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <!-- Navegación principal -->
+            <nav
+                id="main-nav"
+                class="main-nav"
+                aria-label="Navegación principal"
+            >
+                <a href="index.html">Inicio</a>
+                <a href="nosotros.html">Nosotros</a>
+                <a href="servicios.html">Servicios</a>
+                <a href="galeria.html">Galería</a>
+                <a class="active" href="contacto.html">Contacto</a>
+
+                <a class="nav-cta" href="contacto.html">
+                    Agenda tu cita
+                </a>
+            </nav>
+
+        </div>
+
+    </header>
+
+    <!-- ==================== CONTENIDO PRINCIPAL ==================== -->
+    <main id="contenido">
+
+        <!-- Hero -->
+        <section class="page-hero">
+
+            <div class="container">
+
+                <p class="eyebrow">
+                    Estamos para ayudarte
+                </p>
+
+                <h1>
+                    Hablemos de su bienestar
+                </h1>
+
+                <p>
+                    Cuéntanos qué necesita tu mascota.
+                    Nuestro equipo te responderá lo antes posible.
+                </p>
+
+            </div>
+
+        </section>
+
+        <!-- ==================== SECCIÓN DE CONTACTO ==================== -->
+        <section class="section">
+
+            <div class="container contact-grid">
+
+                <!-- Información de contacto -->
+                <aside>
+
+                    <p class="eyebrow">
+                        Información de contacto
+                    </p>
+
+                    <h2>
+                        Siempre cerca de ti
+                    </h2>
+
+                    <div class="contact-list">
+
+                        <!-- Horario -->
+                        <div class="contact-item">
+
+                            <i>◷</i>
+
+                            <div>
+                                <h3>
+                                    Horario de atención
+                                </h3>
+
+                                <p>
+                                    Lunes a viernes · 8:00 a.m. – 7:00 p.m.
+                                    <br>
+                                    Sábados · 9:00 a.m. – 2:00 p.m.
+                                </p>
+                            </div>
+
+                        </div>
+
+                        <!-- Dirección -->
+                        <div class="contact-item">
+
+                            <i>⌖</i>
+
+                            <div>
+                                <h3>
+                                    Visítanos
+                                </h3>
+
+                                <p>
+                                    Calle 78 # 12–34
+                                    <br>
+                                    Bogotá, Colombia
+                                </p>
+                            </div>
+
+                        </div>
+
+                        <!-- Teléfono -->
+                        <div class="contact-item">
+
+                            <i>◌</i>
+
+                            <div>
+                                <h3>
+                                    Llámanos
+                                </h3>
+
+                                <a href="tel:+5716012345">
+                                    +57 (601) 555 0123
+                                </a>
+                            </div>
+
+                        </div>
+
+                        <!-- Correo -->
+                        <div class="contact-item">
+
+                            <i>✉</i>
+
+                            <div>
+                                <h3>
+                                    Escríbenos
+                                </h3>
+
+                                <a href="mailto:hola@vetia.co">
+                                    hola@vetia.co
+                                </a>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </aside>
+
+                <!-- ==================== FORMULARIO ==================== -->
+                <form
+                    class="contact-form"
+                    action="#"
+                    method="post"
+                >
+
+                    <p class="eyebrow">
+                        Agenda o consulta
+                    </p>
+
+                    <h3>
+                        Déjanos tus datos
+                    </h3>
+
+                    <!-- Primera fila -->
+                    <div class="form-row">
+
+                        <div class="field">
+
+                            <label for="nombre">
+                                Nombre completo
+                            </label>
+
+                            <input
+                                id="nombre"
+                                name="nombre"
+                                type="text"
+                                placeholder="Tu nombre"
+                                required
+                                autocomplete="name"
+                            >
+
+                        </div>
+
+                        <div class="field">
+
+                            <label for="correo">
+                                Correo electrónico
+                            </label>
+
+                            <input
+                                id="correo"
+                                name="correo"
+                                type="email"
+                                placeholder="nombre@correo.com"
+                                required
+                                autocomplete="email"
+                            >
+
+                        </div>
+
+                    </div>
+
+                    <!-- Segunda fila -->
+                    <div class="form-row">
+
+                        <div class="field">
+
+                            <label for="telefono">
+                                Teléfono
+                            </label>
+
+                            <input
+                                id="telefono"
+                                name="telefono"
+                                type="tel"
+                                placeholder="300 000 0000"
+                                required
+                                autocomplete="tel"
+                            >
+
+                        </div>
+
+                        <div class="field">
+
+                            <label for="asunto">
+                                Asunto
+                            </label>
+
+                            <input
+                                id="asunto"
+                                name="asunto"
+                                type="text"
+                                placeholder="¿En qué podemos ayudarte?"
+                                required
+                            >
+
+                        </div>
+
+                    </div>
+
+                    <!-- Mensaje -->
+                    <div class="field">
+
+                        <label for="mensaje">
+                            Mensaje
+                        </label>
+
+                        <textarea
+                            id="mensaje"
+                            name="mensaje"
+                            placeholder="Cuéntanos brevemente sobre tu mascota y su necesidad."
+                            required
+                        ></textarea>
+
+                    </div>
+
+                    <!-- Botones -->
+                    <div class="form-actions">
+
+                        <button
+                            class="button button-submit"
+                            type="submit"
+                        >
+                            Enviar mensaje
+                            <span>→</span>
+                        </button>
+
+                        <button
+                            class="button button-reset"
+                            type="reset"
+                        >
+                            Limpiar
+                        </button>
+
+                    </div>
+
+                    <!-- Estado del formulario -->
+                    <p
+                        class="form-status"
+                        aria-live="polite"
+                    ></p>
+
+                </form>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <!-- ==================== FOOTER ==================== -->
+    <footer class="site-footer">
+
+        <div class="container footer-grid">
+
+            <!-- Información de VETIA -->
+            <div>
+
+                <a
+                    class="brand footer-brand"
+                    href="index.html"
+                >
+                    <span class="brand-mark">✦</span>
+
+                    <span>
+                        <strong>VETIA</strong>
+                        <small>Clínica Veterinaria</small>
+                    </span>
+                </a>
+
+                <p>
+                    Medicina veterinaria cercana para una vida
+                    más feliz y saludable.
+                </p>
+
+            </div>
+
+            <!-- Enlaces -->
+            <div>
+
+                <h3>
+                    Explora
+                </h3>
+
+                <a href="nosotros.html">
+                    Nosotros
+                </a>
+
+                <a href="servicios.html">
+                    Servicios
+                </a>
+
+                <a href="galeria.html">
+                    Galería
+                </a>
+
+            </div>
+
+            <!-- Contacto -->
+            <div>
+
+                <h3>
+                    Contacto
+                </h3>
+
+                <a href="tel:+5716012345">
+                    +57 (601) 555 0123
+                </a>
+
+                <a href="mailto:hola@vetia.co">
+                    hola@vetia.co
+                </a>
+
+                <span>
+                    Calle 78 # 12–34, Bogotá
+                </span>
+
+            </div>
+
+            <!-- Redes sociales -->
+            <div>
+
+                <h3>
+                    Síguenos
+                </h3>
+
+                <div class="socials">
+
+                    <a
+                        href="#"
+                        aria-label="Instagram"
+                    >
+                        ig
+                    </a>
+
+                    <a
+                        href="#"
+                        aria-label="Facebook"
+                    >
+                        f
+                    </a>
+
+                    <a
+                        href="#"
+                        aria-label="WhatsApp"
+                    >
+                        wa
+                    </a>
+
+                </div>
+
+                <p>
+                    Lun–Vie · 8:00–19:00
+                    <br>
+                    Sáb · 9:00–14:00
+                </p>
+
+            </div>
+
+        </div>
+
+        <!-- Parte inferior del footer -->
+        <div class="container footer-bottom">
+
+            <span>
+                © 2026 VETIA. Todos los derechos reservados.
+            </span>
+
+            <a href="contacto.html">
+                Agenda tu cita
+            </a>
+
+        </div>
+
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>
